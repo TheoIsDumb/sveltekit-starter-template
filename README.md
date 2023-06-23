@@ -7,5 +7,5 @@ a sveltekit starter template i made for myself with tailwind and inter tight set
 ```
 git clone https://github.com/TheoIsDumb/sveltekit-starter-template.git
 cd sveltekit-starter-template
-bash setup.sh
+pnpm i
 ```
