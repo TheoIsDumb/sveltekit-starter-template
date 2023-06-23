@@ -1,3 +1,4 @@
+echo ''
 echo "Removing .git directory..." && rm -rf .git
 
 while [[ -z $proj_name ]]
