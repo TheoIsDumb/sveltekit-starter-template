@@ -14,5 +14,5 @@ done
 
 echo "Initializing Git repository..." && git init && echo "Initialized."
 echo "Creating git alias..." && \
-git config alias.p "!git push && npm run build && rsync -avrz --delete build/ root@vkdbois.xyz:/var/www/$dir" && \
+git config alias.p "!git push && pnpm run build && rsync -avrz --delete build/ root@vkdbois.xyz:/var/www/$dir" && \
 echo -e "Git alias created.\nExecute 'git p' to push, build and rsync all at once."
